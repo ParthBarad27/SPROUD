@@ -1,0 +1,32 @@
+.resources-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.resources-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.resource-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+
+.resource-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.resource-card h3 {
+  margin: 8px 0 4px;
+}
+
+.resource-card p {
+  font-size: 14px;
+  color: #555;
+}

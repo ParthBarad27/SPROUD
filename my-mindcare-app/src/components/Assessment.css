@@ -1,0 +1,52 @@
+.assessment-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.assessment-options button,
+.answer-options button,
+button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  transition: 0.2s;
+}
+
+.assessment-options button:hover,
+.answer-options button:hover,
+button:hover {
+  background-color: #ddd;
+}
+
+.question-box, .results-box, .assessment-complete {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.severity {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.check-icon {
+  width: 50px;
+  height: 50px;
+  color: green;
+  margin-bottom: 10px;
+}

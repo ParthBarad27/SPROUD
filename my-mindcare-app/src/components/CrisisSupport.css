@@ -1,0 +1,115 @@
+.crisis-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.crisis-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.crisis-icon {
+  width: 64px;
+  height: 64px;
+  color: #e53e3e;
+  margin-bottom: 20px;
+}
+
+.crisis-header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.crisis-header p {
+  font-size: 16px;
+}
+
+.emergency-contacts {
+  background-color: #ffe5e5;
+  border: 2px solid #fbb6b6;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.emergency-contacts h3 {
+  font-size: 22px;
+  color: #c53030;
+  margin-bottom: 20px;
+}
+
+.emergency-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.emergency-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.helpline-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e53e3e;
+  margin: 5px 0;
+}
+
+.helpline-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.emergency-card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.emergency-card button:hover {
+  background-color: #c53030;
+}
+
+.coping-strategies {
+  margin-bottom: 30px;
+}
+
+.coping-strategies h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.coping-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.strategy-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.strategy-icon {
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #3182ce;
+}

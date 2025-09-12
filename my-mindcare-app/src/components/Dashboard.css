@@ -1,0 +1,58 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.welcome-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mood-options button {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mood-options button.active {
+  border-color: #2563eb; /* blue */
+  background-color: #dbeafe; /* light blue */
+  color: #1e3a8a;
+}
+
+.quick-action, .recent-activity, .wellness-score, .upcoming-appointments, .crisis-support {
+  border-radius: 1rem;
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.quick-action-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.crisis-support button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
